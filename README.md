@@ -76,9 +76,9 @@ Most tariffs are around 15 cent per SMS/Minute, so threshold is around 40 units 
 
 In general, if you want to do this automatically - you will be required to buy a SIM only subscription (Youfone - 6EUR p/m) - as docs do suggest they allow it there.
 
-Oh, and if you don't care about calling - only sms - you can just ignore this and block all incoming calls by uncommenting this in the codebase;
+Oh, and if you don't care about calling - only sms - you can just ignore most of above and block all incoming calls by uncommenting this in the codebase;
 ```
-// SerialMonitor.println("Blocking all incoming calls..."); // was not able to test, use modem as it's nicer
+// SerialMonitor.println("Blocking all incoming calls...");
 // SerialSIM800.println("AT+GSMBUSY=1");
 ```
 
