@@ -82,6 +82,8 @@ Now flash away.
 
 You'll always receive an SMS on boot, so you'll know the number + know that at least SMS works. Always test if everything works, but goes without saying...
 
+Beware; whatever your powersource for long-term use -> it must be at least 5v 2A capable. If power is insufficient, chances are the health checks won't work.
+
 ## Limitations
 
 - For those using prepaid cards, the health checking does not check for your balance. It can be assumed you'll receive an SMS from the provider in advance - but please verify this before creating issues.
