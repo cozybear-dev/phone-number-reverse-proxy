@@ -6,7 +6,7 @@ Why?
 
 Mobile phone numbers leak a lot, if not in Twitter databases - via all the AliExpress packages that paste it on there. Does every Takeaway restaurant really need your personal phone number? For those that want to limit the risk of having to fully replace their primary phone number (like myself), this is a great solution.
 
-VOIP is not an option. I have extensive experience with VOIP, and having a receiving (normal) number for calls and SMS messages - is not possible. You are able to create two seperate VOIP phone numbers to receive both respectivly, but even then it has limitations like minimal support for SMS messages from outside of your host country. The numbers itself are also not what you're used to.
+VOIP is not an option. I have extensive experience with VOIP, and having a receiving (normal) number for calls and SMS messages - is not possible. You are able to create two seperate VOIP phone numbers to receive both respectivly, but even then it has limitations like minimal support for SMS messages from outside of your host country. The SMS numbers itself are also not what you're used to; example of SMS receive number -> +3197010517078. Receiving numbers for calling, are still not mobile ones - but regional (e.g. 010, 080).
 
 # Get started
 
