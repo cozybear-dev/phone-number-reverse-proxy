@@ -60,6 +60,9 @@ void setupSIM800()
   // SerialSIM800.println("AT+CUSD=1,\"**21*" + PHONE_NUMBER + "\"#");
   // modem.sendUSSD("**21*" + PHONE_NUMBER + "\"#")
 
+  // SerialMonitor.println("Blocking all incoming calls...");
+  // SerialSIM800.println("AT+GSMBUSY=1");
+
   SerialMonitor.println("Configuring SIM800 to TEXT mode...");
   SerialSIM800.println("AT+CMGF=1"); // Configuring TEXT mode
 
