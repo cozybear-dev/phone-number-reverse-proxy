@@ -1,4 +1,5 @@
 # About Phone Number Reverse Proxy
+![cozybeardev proxy](https://cronitor.io/badges/ahJIXc/production/FRiKSiLLyAhqPeBvqIex8FsS8sM.svg)
 
 This project enables you to use a regular mobile phone number - as a full reverse proxy. All SMS messages are forwarded, calls are redirected. Proper health checking, allowing you to not worry at night whether or not it actually works - lol.
 
