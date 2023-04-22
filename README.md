@@ -92,6 +92,7 @@ Beware; whatever your powersource for long-term use -> it must be at least 5v 2A
 
 ## Limitations
 
+- Forwarding is currently only working for the amount of chars that can fit into a single SMS. If an SMS is send to the proxy, that exceeds the amount, the forwarded SMS will show it's missing data. This could be solved, but don't care enough about it. Feel free to contribute.
 - For those using prepaid cards, the health checking does not check for your balance. It can be assumed you'll receive an SMS from the provider in advance - but please verify this before creating issues.
 - As call redirection is done on the provider network level, and not via the SIM card itself - you won't know when called on your primary phone whether it's a forwarded call or not. As far as I know, there is no way around this. I don't mind, but keep this in mind when calling back or when the number they cite is not what you expected...
 - This project is not a fully fledged proxy, meaning - you can't call or SMS back to the sender with the proxy number. I have no ambition nor need for such functionality. Full proxy functionality for SMS would be possible, calling not. I would not recommend it though. If you want a proxy -> use VOIP (way cheaper and easier). You can very easily spoof SMS messages using API calls with all major companies (like Messagebird or Twilio). You can also spoof your calls interactivly as I blogged about earlier this year; https://cozybear.dev/posts/spoofing-any-call-interactively/
