@@ -80,6 +80,8 @@ void setupESP(){
   SerialMonitor.println("");
   SerialMonitor.print("Connected to WiFi network with IP Address: ");
   SerialMonitor.println(WiFi.localIP());
+  WiFi.setAutoReconnect(true);
+  WiFi.persistent(true);
 }
 
 void initializeModem(){
